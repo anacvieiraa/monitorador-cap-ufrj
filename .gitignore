@@ -1,0 +1,32 @@
+# Dados sensíveis
+.env
+*.pem
+*.key
+*.secret
+*.token
+
+# Logs e dados de execução
+*.log
+logs/
+cron.log
+monitoramento.log
+
+# Ambiente virtual Python
+venv/
+.env/
+.venv/
+env/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE
+.vscode/
+.idea/
